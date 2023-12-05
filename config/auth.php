@@ -2,6 +2,20 @@
 
 return [
 
+    'routes' => [
+        'login' => '/login',
+        'logout' => '/logout',
+        'register' => '/register',
+        'password.reset' => '/password/reset',
+        'password.confirm' => '/password/confirm',
+    ],
+    'views' => [
+        'auth.login' => 'auth.login',
+        'auth.register' => 'auth.register',
+        'auth.password.reset' => 'auth.password.reset',
+        'auth.password.confirm' => 'auth.password.confirm',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Authentication Defaults
